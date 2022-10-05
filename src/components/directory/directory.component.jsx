@@ -6,7 +6,6 @@ import "./directory.styles.scss";
 function Directory() {
   return (
     <div className="categories-container">
-      hi
       {categories.map((category) => (
         <CategoryItem category={category} key={category.id} />
       ))}
